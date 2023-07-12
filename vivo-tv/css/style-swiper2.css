@@ -1,0 +1,50 @@
+.swiper2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-slide2 {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-pagination2 {
+  margin-top: 3rem;
+}
+
+/* s: list 버튼 */
+/* .onair-con-btn {
+  margin-top: 5rem;
+  margin-top: 3.546099290780142%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+} */
+.swiper2 .btn {
+  background: no-repeat 50%;
+  padding: 2rem;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+.swiper2 .btn.btn-s-prev {
+  background-image: url(../img/arrow-left-s.svg);
+}
+.swiper2 .btn.btn-s-next {
+  background-image: url(../img/arrow-right-s.svg);
+}
+.swiper2 .btn.btn-s-prev:hover {
+  background-image: url(../img/arrow-left-s-on.svg);
+}
+.swiper2 .btn.btn-s-next:hover {
+  background-image: url(../img/arrow-right-s-on.svg);
+}
