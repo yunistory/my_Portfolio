@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renewal</title>
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- <link rel="stylesheet" href="./css/style-02.css" /> -->
+    <link rel="stylesheet" href="./css/style-04.css" />
+
+    <!-- <script src="./js/script-flipster.js"></script> -->
+    <link rel="stylesheet" href="./css/jquery.flipster.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.flipster.min.js"></script>
+
+    <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/script.menu.js"></script>
+
+    <link rel="stylesheet" href="./css/loading.css" />
+    <script src="./js/script-loading.js"></script>
+  </head>
+
+  <body>
+    <main id="container">
+      <video src="./img/cottonbro.mp4" muted="" autoplay="" loop=""></video>
+
+      <div class="main-wrap">
+        <div class="banner">
+          <div class="wrapper">
+            <p>이미지 위에서</p>
+            <div class="words">
+              <span>마우스 휠</span>
+              <span>마우스 휠</span>
+              <span>마우스 휠</span>
+              <span>마우스 휠</span>
+              <span>마우스 휠</span>
+            </div>
+            <p>을 움직여 주세요 !!</p>
+          </div>
+          <div class="carousel">
+            <ul>
+              <li>
+                <img src="./img/renewal-01.jpg" alt="01" />
+              </li>
+              <li>
+                <img src="./img/renewal-02.jpg" alt="02" />
+              </li>
+              <li>
+                <img src="./img/renewal-03.jpg" alt="03" />
+              </li>
+              <li>
+                <img src="./img/renewal-04.jpg" alt="04" />
+              </li>
+              <li>
+                <img src="./img/renewal-05.jpg" alt="05" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script>
+          $(".carousel").flipster({
+            style: "carousel",
+            spacing: -0.3,
+          });
+        </script>
+      </div>
+      <!-- <div class="moveTop-btn"><strong>TOP</strong></div> -->
+    </main>
+    <!-- <footer id="footer"></footer> -->
+  </body>
+</html>

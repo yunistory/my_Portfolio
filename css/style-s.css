@@ -1,0 +1,54 @@
+.main {
+  padding:none;
+  margin:none;
+}
+
+.first{
+  height:100vh;
+  background:pink;
+  margin:0; 
+  padding:0;
+  box-sizing:border-box;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.test{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0
+}
+
+.one {
+  background:lightblue;
+  z-index:10
+}
+
+.two{
+  background:lightcoral;
+  z-index:9
+}
+
+.three{
+  background:lightcyan;
+  z-index:8
+}
+
+.text-center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  height:100vh;
+  background:orange;
+  margin:0;
+  padding:0;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
